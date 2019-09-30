@@ -1,0 +1,50 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "SampleMicroServices",
+    "packageName": "com.akurat.sms",
+    "packageFolder": "com/akurat/sms",
+    "serverPort": 8081,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "infinispan",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "hi",
+      "ta",
+      "te"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.3.1",
+    "jwtSecretKey": "YmE3ODljMmM2ODk2MTNjZDQwZjlkZjQ0YzQyMmEzM2E2YTQ2YTc1YmYxNzhlNDNjYzAyZTNiMjA5NDQ3YmZmODllN2YzYzdmODE1MzMxMWRkODEyNThjNTc2YTQ3MDBhYjBkNmIwMjk4ODlmOWU5YjdjMjFhMWNmZmEzY2IxNTA=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "karthickcdm",
+  "repository-name": "sample-microservices"
+}
